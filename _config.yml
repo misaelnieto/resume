@@ -1,0 +1,56 @@
+# Site
+repository: misaelnieto/resume
+favicon: favicon.ico
+
+# Personal info
+name: Noe Nieto
+website: www.noenieto.com
+title: Passionate about software
+email: nnieto@noenieto.com
+twitter_username: misaelnieto_a
+github_username:  misaelnieto
+linkedin_username: noe-nieto-13529524
+
+# About
+about_profile_image: img/noe.png
+about_content: | # this will include new lines to allow paragraphs
+  I like Software! Specially Free/Libre/Open Source Software. That's why I'd
+  like to define myself as a FLOSS generalist. My main develpment environment is
+  Linux, naturally, but I can use Windows as well. I've played different roles
+  in the past: frontend, Backend, Sysadmin and DBA. Some of the tools I have
+  used recently are:
+    - Programming languages: Python, PHP, Javascript
+    - Databases: MySQL, PostgreSQL, SQLite
+    - OS: Linux, Bash
+    - Web: HTML, CSS, JavaScript, Jekyll, Wordpress, Django
+  Finally, I have a B1/B2 visa, so I can travel to any City of the US when needed.
+
+
+# More Section
+more_title: Personal interests #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  I'm a [Holokinetic Psychology
+  Instructor](https://www.percepcionunitaria.org/en/introduction-to-unitary-perception-university-of-guadalajara-jalisco-mexico),
+  I like Dogs and on my spare time I do some Welding.
+
+
+# Build settings
+# remote-theme: modern-resume-theme
+theme: modern-resume-theme
+footer_show_references: true
+darkmode: false
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
+
+plugins:
+ - jekyll-seo-tag

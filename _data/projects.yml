@@ -1,0 +1,25 @@
+# Project template
+- layout: top-middle
+  name: Holokinesis Libros
+  link: https://www.holokinesislibros.com
+  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    Ecommerce for <em>Holokinesis Libros</em>, a small publishing company.
+  description: |
+    This is my main personal project. I work on it on my free time. We started
+    around March 2010 with a Plone 4.x site, which included a custom theme with
+    some custom content types using <mark>Dexterity</mark> and
+    Products.PloneGetPaid, which was still alive then. After several
+    shortcommings with Plone, we migrated to Django and DjangoLFS and created
+    some plugins to make it work for us. Now DjangoLFS is showing its age and we
+    are already working on migrating the site from django to Woocommerce.
+
+- layout: top-middle
+  name: My demos
+  link: http://demos.noenieto.com
+  github: somewhere
+  quote: A collection of experiments, old and new
+  description: |
+    Every now and then I want to test some library or concept or I just need a
+    small tool to scratch my itch. This is where I upload them. Feel free to
+    walk around.

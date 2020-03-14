@@ -1,0 +1,33 @@
+- name: M.Eng. UABC, Instituo de Ingeniería
+  dates: 2016-2018
+  description: |
+    Thesis title: _ESTUDIO POR SIMULACIÓN DE LOS EFECTOS DE DISEÑO EN CELDAS
+    SOLARES SEMICONDUCTORAS_. I used Silvaco's TCAD to see how to design and
+    fabricate simple solar cells using Crystaline Silicon as substrate and Boron
+    and Phosphorus as dopants using diffusion or ion implantation.
+
+- name: International SCRUM Institute (May 2015).
+  dates: May 2015
+  description: |
+    Three day intensive course for the role of <mark>SCRUM</mark> Master. After
+    training I passed the accreditation exam on May 29. My Authorized
+    Certification ID is `79778815187513`. The Certificate validity period is
+    lifetime. You can use the [ISI's website to verify the
+    certificate](https://www.scrum-institute.org/International_Scrum_Institute_Certificate_Validation_Tool.php).
+
+- name: Instituto Tecnológico de Puebla
+  dates: 2000 - 2005
+  description: |
+    My Thesis *"Sistema de Vigilancia con video sobre TCP/IP"* demostrates the
+    possibility of building surveillance systems by using only Free/Libre/Open
+    Source Software like <mark>Linux</mark>, <mark>Python</mark> and
+    <mark>Gstreamer</mark>. I also installed a 8-node cluster in the parallel
+    computing research laboratory of the Instituto Tecnologico de Puebla as
+    social service using Linux, and the
+    <mark>MPI</mark>/<mark>BLAS</mark>/<mark>Lapack</mark> stack.
+
+- name: Universidad Popular Autónoma del Estado de Puebl
+  dates: 1997 - 2000
+  description: |
+    This is when I learn the basics of algorithms, <mark>C</mark>, <mark>Basic</mark> and <mark>Pascal</mark> and finally Computer
+    Programmer Technician (diploma)

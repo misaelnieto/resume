@@ -1,0 +1,111 @@
+- company: Purism SPC.
+  link: https://puri.sm/
+  dates: November 2018 - March 2020
+  job_title: <a href="https://librem.one/">Librem One</a> web developer
+  description: |
+    During my time on Purism I worked integrating <mark>Wordpress</mark> and
+    <mark>Woocommerce</mark> with our middleware runnning Django. Other small
+    tasks and technologies included <mark>LDAP</mark>, <mark>Jekyll</mark>, <mark>Gitlab CI</mark>, <mark>PHPUnit</mark>, <mark>Python</mark>
+    <mark>Virtualenv</mark>/<mark>Pipenv</mark>, <mark>Bash</mark>, <mark>Docker</mark> and <mark>Vagrant</mark>.
+
+- company: Google Summer of Code
+  link: https://summerofcode.withgoogle.com/archive/2018/projects/6310236080046080/
+  dates: May - August, 2018 
+  job_title: Enable DEVSIM to simulate solar cells
+  description: |
+    <mark>DEVSIM</mark> is a TCAD (Technology Computer Aided Design) semiconductor device
+    simulation software. TCAD tools are special simulation software that can
+    simulate the fabrication process of semiconductors as well as their
+    operation. The objective of this work is to add the necessary improvements
+    to <mark>DEVSIM</mark> so it can simulate solar cells.
+
+- company: Social Reality
+  link: https://srax.com/
+  dates: November 2015 - August 2017
+  job_title: SRAX Web Developer
+  description: |
+    Around that time, the company's Ad exchange backend was the typical LAMP
+    stack with a lot of legacy code on stored procedures and PHP/<mark>CodeIgniter</mark>
+    code. <mark>Bootstrap</mark> and vanilla JS were used on the frontend. At the end of my time on Social Reality we had integrated several ad exchanges into our backend (a big change)
+    Besides the
+    developer role, I also enjoyed administering the Linux servers. We used
+    <mark>Puppet</mark> to manage the systems configuration.
+
+- company: Valutech Outsourcing S.A. de C.V. (now Clover Wireless)
+  dates: October 2013 - November 2015
+  job_title: Android Development
+  description: |
+    My main responsibilities included administration, maintenance, backup and
+    optimization and emergency response for <mark>SQL Server</mark> databases,
+    <mark>IIS</mark>, and Linux hosts for ftp, web and backup systems, all
+    integrated into the company's <mark>Active Directory</mark> server. I had a
+    very good time working for Valutech's IT team because they managed their own
+    data center; we had the chance to tinker around diferent virtualization
+    strategies like <mark>VMWare</mark>, <mark>Azure</mark>, Amazon Web Services
+    like <mark>EBS</mark>, <mark>EC2</mark> and <mark>S3</mark>, and
+    <mark>VirtualBox</mark> for local testing. The main database server
+    required High Availability configurations, but beside the high concurrency
+    load, we also had to be really watchful for all the developers ensuring they
+    don't run naive queries that otherwise would trash the DB server. Also
+    since database sizes typically exceeded Terabytes, we had to be a bit extra
+    careful for backups.
+
+- company: HomeViva
+  dates: August 2011 - March 2014
+  job_title: Full stack developer
+  description: |
+    Our stack was Linux (on <mark>AWS</mark>), <mark>Nginx</mark>, <mark>HTML</mark>, <mark>CSS</mark> and vanilla <mark>Javascript</mark> with
+    some <mark>jQuery</mark> on the frontend, <mark>Python</mark> and <mark>Grok</mark> on the backend (using <mark>ZODB</mark>,
+    NoSQL database before it was mainstream). This stack meant a lot of fun until the
+    JS code became a nightmare to mantain; to escape our doom we migrated to
+    another stack: <mark>Python</mark>, <mark>Pyramid</mark> and <mark>SQLAlchemy</mark> with a good JSON API on the
+    backend, and <mark>AngularJS</mark> on the frontend. It was beautiful until <mark>AngularJs</mark>
+    guys decided to rewrite it and with that they broke my code and my heart, so I haven't touched AngularJS since then.
+    Oh, additionally, I managed the <mark>Linux</mark> servers on <mark>AWS</mark>.
+
+- company: iServices de México (Now defunct)
+  dates: January 2009 - April 2011
+  job_title: Web/Python Dev and Linux Sysadmin
+  description: |
+    I was in charge of integration/development and maintenance of their in-house LCMS
+    systems. My activities involved Linuxsystem administration of the Linux server, project
+    management, Web Software development, Software engineering and maintenance
+    with the Plone CMS and emergency assistance in case of software failure. Key
+    technologies included: <mark>Python</mark>, <mark>Plone</mark>/<mark>ZODB</mark>/<mark>RelStorage</mark>/<mark>PostgreSQL</mark>, <mark>HTML</mark>, <mark>CSS</mark>,
+    <mark>JavaScript</mark> and <mark>Django</mark>.
+
+- company: Honeywell Aerospace de Mexico / Honeywell MRTC
+  dates: May 2006 - December 2008
+  job_title: Data acquisition engineer.
+  description: |
+    As a Data Acquisition Engineer I was in charge of the commissioning and
+    operation of DA hardware and software. I became the in-house specialist for
+    pressure, temperature, voltage, current and vibration measurements as well
+    as video over IP and networking. I was also in charge of assuring that our
+    instruments were always calibrated with traceability to the NIST and always
+    ready for use, that included dealing with purchasing and supply chain
+    departments. I successfully concluded my Six Sigma Green Belt course.
+    Software tools included: <mark>Windows</mark>,
+    <mark>Linux/Apache/MySQL/PHP</mark>, Python, GStreamer. DA equipment
+    included brands like Scanivalve, Dewetron and Genesys (LDS Test and
+    Measurement).
+
+- company: Gameloft (Mexicali)
+  dates: February ~ March 2016
+  job_title: Multiplayer programmer
+  description: |
+    During my short time in Gameloft I implemented tested and deployed
+    modifications of the multiplayer server and multiplayer API used in
+    networked games for mobile phones. I also worked on adding support for
+    specific models of cellphones by the different game titles published by
+    Gameloft. Technologies included: <mark>C++</mark>, <mark>Apache</mark>,
+    <mark>Linux</mark>, <mark>Android</mark>
+
+- company: Centro de ingenieria – Instituto Nacional de Astrofísica Óptica y Electrónica
+  dates: October 2013 - November 2015
+  job_title: Internship - Embedded systems laboratory assistant
+  description: |
+    Kalman filter simulator as internship project. Tools used included <mark>Matlab</mark>,
+    <mark>C</mark>, <mark>Assembler</mark> and Atmel microcontrollers.
+
+
