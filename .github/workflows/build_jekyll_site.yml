@@ -1,2 +1,0 @@
-- name: Build resume
-  uses: helaili/jekyll-action@master
