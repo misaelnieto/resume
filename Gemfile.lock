@@ -247,7 +247,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (>= 3.8)
-  modern-resume-theme (~> 1.8.5)
+  modern-resume-theme (>= 1.8.5)
 
 BUNDLED WITH
    2.1.4

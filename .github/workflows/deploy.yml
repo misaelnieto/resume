@@ -12,19 +12,8 @@ jobs:
     steps:
       - name: GitHub Checkout
         uses: actions/checkout@v1
-      - name: Bundler Cache
-        uses: actions/cache@v1
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
       - name: Build the Jekyll
         uses: jerryjvl/jekyll-build-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
       - name: Rsync the build
         uses: Pendect/action-rsyncer@v1.1.0
         env:
