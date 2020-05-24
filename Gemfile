@@ -1,6 +1,13 @@
 source "https://rubygems.org"
-gem "modern-resume-theme", "~> 1.8.5"
+gem "jekyll", ">= 3.8"
+
 gem "github-pages", group: :jekyll_plugins
+
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  gem 'github-pages'
+  gem 'modern-resume-theme'
+end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

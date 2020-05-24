@@ -1,6 +1,7 @@
 # Site
 repository: misaelnieto/resume
 favicon: favicon.ico
+baseurl: /resume
 
 # Personal info
 name: Noe Nieto

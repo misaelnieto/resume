@@ -250,7 +250,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  modern-resume-theme (~> 1.8.5)
+  jekyll (>= 3.8)
+  modern-resume-theme
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
