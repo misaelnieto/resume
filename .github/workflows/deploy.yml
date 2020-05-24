@@ -13,7 +13,7 @@ jobs:
       - name: GitHub Checkout
         uses: actions/checkout@v1
       - name: Build the Jekyll
-        uses: jerryjvl/jekyll-build-action@v1
+        uses: lemonarc/jekyll-action@1.0.0
       - name: Rsync the build
         uses: Pendect/action-rsyncer@v1.1.0
         env:
