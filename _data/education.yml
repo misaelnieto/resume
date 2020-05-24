@@ -2,9 +2,10 @@
   dates: 2016-2018
   description: |
     Thesis title: _ESTUDIO POR SIMULACIÓN DE LOS EFECTOS DE DISEÑO EN CELDAS
-    SOLARES SEMICONDUCTORAS_. I used Silvaco's TCAD to see how to design and
-    fabricate simple solar cells using Crystaline Silicon as substrate and Boron
-    and Phosphorus as dopants using diffusion or ion implantation.
+    SOLARES SEMICONDUCTORAS_. I used Silvaco's TCAD software simulate the
+    fabrication solar cells using Crystaline Silicon as substrate with Boron and
+    Phosphorus as dopants using diffusion or ion implantation. I used this
+    knowledge to work on 2018 edition of Google's Summer of Code.
 
 - name: International SCRUM Institute (May 2015).
   dates: May 2015
