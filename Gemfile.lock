@@ -249,6 +249,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  faraday (<= 1.0)
   github-pages
   jekyll (>= 3.8)
   modern-resume-theme
