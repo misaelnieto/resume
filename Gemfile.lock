@@ -240,22 +240,14 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.6)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2019.3)
-      tzinfo (>= 1.0.0)
     unicode-display_width (1.6.1)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  faraday (<= 1.0)
-  github-pages
   jekyll (>= 3.8)
-  modern-resume-theme
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.1)
+  modern-resume-theme (~> 1.8.5)
 
 BUNDLED WITH
    2.1.4

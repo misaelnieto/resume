@@ -19,8 +19,8 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-      - name: Build & Deploy to GitHub Pages
-        uses: joshlarsen/jekyll4-deploy-gh-pages@master
+      - name: Build the Jekyll
+        uses: jerryjvl/jekyll-build-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
@@ -31,6 +31,6 @@ jobs:
           DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
         with:
           options: '--exclude-from=.rsyncexclude --delete-excluded'
-          src: .
+          src: ./_site/
           # Remote server and path. i.e user@server.com:/var/www/server.com/
           dest: ${{secrets.RSYNC_DEST}}
