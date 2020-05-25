@@ -1,0 +1,9 @@
+watch.sh
+.rsyncexclude
+.hgignore
+.gitignore
+.github
+.git
+bower.json
+README.md
+CNAME
