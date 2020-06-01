@@ -81,5 +81,19 @@
         box-shadow:4px 4px 10px rgba(0,0,0,0.8);
     }
 }
+.print-notice {
+  display: none;
+}
+
+@media print {
+    .print-notice {
+      display: block;
+    }
+    
+    .print-notice p {
+      text-align: center;
+      font-size: small;
+    }
+}
 </style>
 </head>
