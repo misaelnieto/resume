@@ -1,25 +1,73 @@
 # Project template
-- layout: top-middle
-  name: Holokinesis Libros
+- name: Holokinesis Libros (HKL)
   link: https://www.holokinesislibros.com
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
-    Ecommerce for <em>Holokinesis Libros</em>, a small publishing company.
+    Ecommerce for <em>Holokinesis Libros</em>, a small book publishing company.
   description: |
-    This is my main personal project. I work on it on my free time. We started
-    around March 2010 with a Plone 4.x site, which included a custom theme with
-    some custom content types using <mark>Dexterity</mark> and
+    We started around March 2010 with a Plone 4.x site, which included a custom
+    theme with some custom content types using Dexterity and
     Products.PloneGetPaid, which was still alive then. After several
-    shortcommings with Plone, we migrated to Django and DjangoLFS and created
-    some plugins to make it work for us. Now DjangoLFS is showing its age and we
-    are already working on migrating the site from django to Woocommerce.
+    shortcommings with Plone, we migrated to Django and DjangoLFS and I created
+    some plugins to make it usable for selling digital downloads. But DjangoLFS
+    is showing its age and we are already working on migrating the site to
+    Woocommerce.
 
-- layout: top-middle
-  name: My demos
-  link: http://demos.noenieto.com
-  github: somewhere
-  quote: A collection of experiments, old and new
+- name: Centro de Psiquiatría y Psicología Holokinética (CPH). This is Hkl's sister gig 
+  link: https://www.holokineticpsychology.org/
+  quote: >
+    Sites for the International Academy of Holokinetic Psychology (AIPH)
   description: |
-    Every now and then I want to test some library or concept or I just need a
-    small tool to scratch my itch. This is where I upload them. Feel free to
-    walk around.
+    The AIPH is based in Mexicali, Baja California, Mexico. It is a non-profit
+    organization that promotes Holokinetic Psychology and Unitary Perception. We
+    have around 10 sites with different applications, including Wordpress,
+    Drupal, Moodle and static HTML. 
+- name: Venddo
+  link: http://venddo.com/
+  quote: >
+    A Mexican Startup based in Mexico City.
+  description: |
+    Venddo analyzes the information in social networks to identify profiles of
+    potential customers with the help of Python, SQLAlchemy and the twitter API.
+
+- name: Libroweb - AlfaOmega Grupo editor
+  quote: >
+   Plone-Based e-learning platform
+  description: |
+    AlfaOmega is one of the biggest publishers of technical books in Latin
+    America. They have offices in Mexico City, Colombia, Argentina and Spain. I
+    helped them to port their e-learning platform from Plone 3 to Plone 4. We
+    also arranged trainning courses for their in-site Plone developers. This
+    projet went from March 2011 until May 2012. Website:
+    http://libroweb.alfaomega.com.mx/
+
+- name: Universidad Pedagógica Nacional
+  link: http://www.upn.mx/
+  description: |
+    Unfortunately, they decided to move one of their sites from Plone to a
+    proprietary system. I helped them to migrate their data.
+
+- name: WAM - Ready2Fill
+  link: http://www.ready2fill.com/
+  description: |
+    October 2011. Based on Oaxaca, Mexico, Ready2Fill develops business
+    solutions with free software. I developed a Python training course for their
+    team of engineers so they could start developing their solutions with Django
+    and Python.
+
+- name: Insignia Diseño
+  link: https://blog.noenieto.com/demos/
+  # github: somewhere
+  quote: Design agency from San Luis Potosí, México
+  description: |
+    I developed a portfolio gallery with CakePHP, jQuery & jQueryTools.
+
+- name: Instituto Tecnológico de Oaxaca
+  quote:  X Jornada Académica, Social y Deportiva 2012 - Nov. 12th-16th
+  description: 20 hour python course for students of Software Engineering.
+
+- name: Instituto Tecnológico de Puebla
+  quote:  Seminario de Aplicaciones de las Tecnologías de la Información y Comunicaciones - Sept. 3rd-7th
+  description: |
+    * Speaker. One 45 minute talk about basic multimedia applications with
+    GStreamer. * Trainner. Five-hour Python course for newcomers. Attendants
+    included students and teachers of the IT Academia.

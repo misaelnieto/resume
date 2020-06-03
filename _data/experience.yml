@@ -8,7 +8,8 @@
     Plone, Django, Beanstalk, RabbitMQ, Supervisord, zc.Buildout, Bootstrap,
     Fooundation, CakePHP, jQuery, AngularJS (1.x), Drupal, Django-LFS,
     WooCommerce, KnockoutJS, Github Actions, Jekyll, RestructuredText, Gtk,
-    PyGObject, Linux, Apache & Nginx, PHP, Python, JS, C & Assembler.
+    PyGObject, Linux, Apache & Nginx, PHP, Python, JS, C & Assembler. If you
+    want to know the details, go to <<My freelancing work>> section below.
 
 - company: Purism SPC.
   link: https://puri.sm/
@@ -100,7 +101,7 @@
   dates: October 2013 - November 2015
   job_title: Internship - Embedded systems laboratory assistant
   description: |
-    Kalman filter simulator as internship project. Tools used included Matlab,
-    C, Assembler and Atmel microcontrollers.
-
+    Kalman filter (a corrective/predictive filter) simulator as internship
+    project usin a dll compiled from Matlab. Other tools were C and Assembler
+    for the Atmel microcontrollers.
 
