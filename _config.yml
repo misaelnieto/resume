@@ -12,6 +12,11 @@ twitter_username: misaelnieto_a
 github_username:  misaelnieto
 linkedin_username: noe-nieto-13529524
 
+additional_links:
+- title: Portfolio and demos
+  icon: fas fa-briefcase
+  url: https://blog.noenieto.com/demos/
+
 # About
 about_profile_image: img/noe.png
 about_content: | # this will include new lines to allow paragraphs
