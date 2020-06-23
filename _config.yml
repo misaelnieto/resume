@@ -20,15 +20,23 @@ additional_links:
 # About
 about_profile_image: img/noe.png
 about_content: | # this will include new lines to allow paragraphs
-  I like Software! Specially Free/Libre/Open Source Software. That's why I'd
-  like to define myself as a FLOSS generalist. My main develpment environment is
-  Linux, naturally, but I can use Windows as well. I've played different roles
-  in the past: frontend, Backend, Sysadmin and DBA. Some of the tools I have
-  used recently are:
-    - Programming languages: Python, PHP, Javascript
-    - Databases: MySQL, PostgreSQL, SQLite
-    - OS: Linux, Bash
-    - Web: HTML, CSS, JavaScript, Jekyll, Wordpress, Django
+
+  I like Software! Specially Free/Libre/Open Source Software. That’s why I’d
+  like to define myself as a FLOSS generalist, though I can use proprietary
+  software whenever its the right tool.
+  
+  I’ve played different roles in the past: frontend, backend, sysadmin and DBA.
+  A list with the software and skills I have used in the past is below.
+    - **Programming languages**: Python, PHP, JavaScript, Rust, Java, C#, C, assembler for PIC and AVR microcontrolers.
+    - **Databases**: MySQL, PostgreSQL, SQLServer, SQLite, MongoDB, ZODB.
+    - **OS/Sysadmin/Devops**: Debian, Ubuntu, RHEL, CentOS, Fedora, Windows Server, Docker, Vagrant, Puppet, Apache, Nginx, IIS, Bash, Powershell, Supervisord, Varnish, ZC Buildout, RabbitMQ, Beanstalkd, HAProxy, AWS (EC2, S3, AWS CLI), OpenLDAP, Github Actions, Git, Subversion, Mercurial, BitBucket, Jira, Assembla, Launchpad, Redmine, proftpd, Let’s Encrypt.
+    - **Web**: HTML, CSS, JavaScript, Jekyll, Sphinx, Wordpress, Django, NodeJS, ExpressJS, Bootstrap, Foundation, Bulma, FontAwesome, Yarn, Bower, KnockoutJS, Angular, Plone, Grok, Zope, Rocket, CakePHP, Laravel, CodeIgniter, jQuery, Drupal, ASPNET MVC, Flask, Bottle, Pyramid, XSLT.
+    - **Ecommerce**: Django-Oscar, Django LFS, WooCommerce, Paypal, Compropago, Conekta
+    - **QA**: Selenium, PhantomJS, React, VueJS, Python Unittest.
+    - **Others**: Gtk+, Pygtk, PyGI, Gstreamer, Matlab, Octave, Simulink, Matplotlib, Silvaco TCAD, Devsim TCAD, Eagle, Dewetron, NGSpice, LibreOffice, BigBlueButton
+    - **Data**: SSIS
+    - **Soft skills**: Patient, hard worker, problem solver, teamplayer, proactive, detail oriented, high work ethic.
+
   Finally, I have a B1/B2 visa, so I can travel to any City of the US when needed.
 
 

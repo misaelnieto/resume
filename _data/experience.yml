@@ -1,65 +1,101 @@
-- company: Freelance
+- company: NNieto Consulting Services
   link: https://www.noenieto.com
-  dates: November 2018 - March 2020
+  dates: Jan 2001 - Today
   job_title:
   description: |
-    This is where I have the chance to help several clients with a broad range
-    of opensource technolgies like: AWS (Mainly EC2, S3 and boto), Twitter API,
-    Plone, Django, Beanstalk, RabbitMQ, Supervisord, zc.Buildout, Bootstrap,
-    Fooundation, CakePHP, jQuery, AngularJS (1.x), Drupal, Django-LFS,
-    WooCommerce, KnockoutJS, Github Actions, Jekyll, RestructuredText, Gtk,
-    PyGObject, Linux, Apache & Nginx, PHP, Python, JS, C & Assembler. If you
-    want to know the details, go to <<My freelancing work>> section below.
+    This is where I have had the chance to solve my clients’ needs with a special
+    focus on using exclusively open source technologies whenever possible. I started
+    this as a side job during the university years but sometimes it has even has
+    evolved to become my main source of income. Projects include websites with PHP,
+    Wordpress, Woocommerce, Drupal, Django, administration of Linux servers, direct
+    customer support and troubleshooting of windows and Linux workstations,
+    installation of Ethernet LANs, analog and IP cameras, and even small electronics
+    hardware.
+
+    **Technologies used include**: PHP, Python, JavaScript, C, Assembler, AWS (Mainly
+    EC2, S3 and boto/aws-cli), Twitter API, Plone, Django, Beanstalk, RabbitMQ,
+    Supervisord, zc.Buildout, Bootstrap, Foundation, CakePHP, jQuery, Angular.js
+    (1.x), Drupal, Django-LFS, WooCommerce, KnockoutJS, Github Actions, Jekyll,
+    Restructured Text, Gtk, PyGObject, Linux, Apache & Nginx, Git, Subversion and
+    the PIC16F85 microcontroller.
 
 - company: Purism SPC.
   link: https://puri.sm/
   dates: November 2018 - March 2020
   job_title: <a href="https://librem.one/">Librem One</a> web developer
   description: |
-    During my time on Purism I worked integrating Wordpress and Woocommerce with
-    our middleware runnning Django. Other small tasks and technologies included
-    LDAP configuration, static sites with Jekyll and <a
-    href="https://github.com/getzola/zola">Zola</a>, Continuous integration with
-    Gitlab CI, PHPUnit, Python Virtualenv/Pipenv, Bash, Docker and Vagrant and
-    Test Driven Development with Django.
+    During my time on Purism I worked integrating Wordpress and Woocommerce with our
+    middleware running Django. Other small tasks and technologies included LDAP
+    configuration, static sites with Jekyll and <a href="https://github.com/getzola/zola">Zola</a>,
+    Continuous integration with Gitlab CI, PHPUnit, Python Virtualenv/Pipenv, Bash,
+    Docker and Vagrant and Test Driven Development with Django.
+
+    **Technologies used**: PHPUnit, Wordpress, Django, Bash, Docker
 
 - company: Social Reality
   link: https://srax.com/
   dates: November 2015 - August 2017
   job_title: SRAX Web Developer
   description: |
-    Around that time, the company's Ad exchange backend was the typical LAMP
-    stack with a lot of legacy code on stored procedures and PHP/CodeIgniter
-    code. I helped the company streamline their onboarding process. At the end
-    of my time on Social Reality we had integrated several ad exchanges into our
-    backend (a huge milestone). Besides the developer role, I also enjoyed
-    administering some of Linux servers with Puppet. I helped the team to move
-    from SVN to git and automated some of their development environent tasks
-    with a customized version of <a href="https://puphpet.com">Puphpet</a>.
+    Working on SR was both fun a challenging. When I started, the company’s Ad
+    exchange backend was the typical LAMP stack with a lot of legacy code on
+    stored procedures and PHP/CodeIgniter code. Deployment process was
+    completely manual and error prone.
+
+    My first assignment was to streamline their somehow complex onboarding
+    process, I wrote the backend using stored procedures and tested them using
+    PHPUnit and a MySQL server running on a ramdisk.
+
+    Their Real Time Bidding system relied on a proprietary algorithm written in
+    C++. The developer had never worked on Linux before, so I helped him by
+    configuring a proper sandbox server and wrote a tool that would pull the
+    latest changes from SVN/Git, compile the code and restart the web server
+    with a webhook or with the click of a button.
+
+    At the end of my time on SR/SRAX the new onboarding process was finished, we
+    had already integrated several ad exchanges into our backend (a huge
+    milestone), the team migrated from SVN to Git, we started to write tests
+    with PHPUnit and Selenium and the developer’s development enviroment was now
+    semi automated using a customized version of Puphpet, (code named Arale) and
+    the whole team was already using Agile methodologies. Besides the developer
+    role, I also enjoyed administering some of Linux servers with Puppet and
+    staring to New Relics graphs.
+
+    **Technologies used:** PHP/CodeIgniter, LAMP, Linux, C++, Jira, NewRelic
 
 - company: Valutech Outsourcing S.A. de C.V. (now Clover Wireless)
   dates: October 2013 - November 2015
   job_title: Developer/Sysadmin
   description: |
-    My main responsibilities included administration, maintenance, backup and
+    This was mi first time working on a data center of a company. My main
+    responsibilities included administration, maintenance, backup and
     optimization and emergency response for SQL Server databases, IIS, and Linux
     hosts for ftp/sftp, web and backup systems, all integrated into the
-    company's Active Directory server. I was in charge of monitoring all the
+    company’s Active Directory server. I was in charge of monitoring all the
     changes pushed by the developers; Our Database load had high concurrency and
     I had to look for naive queries that otherwise would trash the DB server.
     Also since database sizes typically exceeded Terabytes, we had to be a bit
-    extra careful for backups. Also, I had the chance to work on a couple
-    projects using ASP .NET.
+    extra careful for backups. Some of the SQL Servers had HA configurations
+    like replicas and Always On. Also, I had the chance to work on internal
+    tools using ASP .NET MVC., AWS S3, VMWare, Python and RabbitMQ.
+
+    **Technologies used**: SQL Server, IIS, Linux, Active Directory, IIS,
+    Apache, MS Access, SSIS, Red Gate’s SQL Compare, SQL Backup and SQL Monitor,
+    Redmine, DB Comparer, Heidi SQL.
 
 - company: HomeViva
   dates: August 2011 - March 2014
   job_title: Full stack developer
   description: |
-    Our stack was Linux (on AWS), Nginx, HTML, CSS and vanilla Javascript with
-    some jQuery on the frontend, Python and Grok on the backend (using ZODB, a
-    NoSQL) until the JS code became difficult to mantain; to escape our doom we migrated to another stack: Python, Pyramid
-    and SQLAlchemy with a good JSON API on the backend, and AngularJS 1.x on the
+    At the beginning our stack was Linux (on AWS), Nginx, HTML, CSS and vanilla
+    JavaScript with some jQuery on the frontend, Python and Grok on the backend
+    (using ZODB, a NoSQL) until the JS code became difficult to maintain; to
+    escape our doom we migrated to another stack: Python, Pyramid and SQL
+    Alchemy with a good JSON API on the backend, and Angular.js 1.x on the
     frontend. Additionally, I managed the Linux servers on AWS.
+
+    **Technologies used**: JavaScript, HTML, CSS, Python, Pyramid, Linux,
+    Angular.js, Git, subversion.
 
 - company: iServices de México (Now defunct)
   dates: January 2009 - April 2011
@@ -72,6 +108,9 @@
     of software failure. Key technologies included: Python,
     Plone/ZODB/RelStorage/PostgreSQL, HTML, CSS, JavaScript and Django.
 
+    **Technologies used**: HTML, CSS, JavaScript, Django. Python,
+    Plone/ZODB/RelStorage/PostgreSQL
+
 - company: Honeywell Aerospace de Mexico / Honeywell MRTC
   dates: May 2006 - December 2008
   job_title: Data acquisition engineer.
@@ -79,13 +118,15 @@
     As a Data Acquisition Engineer I was in charge of the commissioning and
     operation of DA hardware and software. I became the in-house specialist for
     pressure, temperature, voltage, current and vibration measurements as well
-    as video over IP and networking. I was also in charge of assuring that our
+    as video over IP and networking. I was also in charge of assuring that} our
     instruments were always calibrated with traceability to the NIST and always
-    ready for use, that included dealing with purchasing and supply chain
+    ready for use that included dealing with purchasing and supply chain
     departments. I successfully concluded my Six Sigma Green Belt course.
     Software tools included: Windows, Linux/Apache/MySQL/PHP, Python, GStreamer.
     DA equipment included brands like Scanivalve, Dewetron and Genesys (LDS Test
     and Measurement).
+
+    **Technologies used**: PHP, Linux, Apache, MySQL, Python
 
 - company: Gameloft (Mexicali)
   dates: February ~ March 2016
@@ -94,14 +135,17 @@
     I implemented tested and deployed modifications of the multiplayer server
     and multiplayer API used in networked games for mobile phones. I also worked
     on adding support for specific models of cellphones by the different game
-    titles published by Gameloft. Technologies included: C++, Apache, Linux
-    and Android.
+    titles published by Gameloft.
+
+    Technologies used: C++, Apache, Linux, Android
 
 - company: Centro de ingenieria – Instituto Nacional de Astrofísica Óptica y Electrónica
   dates: October 2013 - November 2015
   job_title: Internship - Embedded systems laboratory assistant
   description: |
     Kalman filter (a corrective/predictive filter) simulator as internship
-    project usin a dll compiled from Matlab. Other tools were C and Assembler
-    for the Atmel microcontrollers.
+    project using a dll compiled from Matlab. Other tools were C and Assembler
+    for the Atmel microcontrollers. I also played a lot with Simulink.
+
+    Technologies used: C, Assembler, Matlab, Simulink.
 
