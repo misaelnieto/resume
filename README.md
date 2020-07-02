@@ -1,6 +1,4 @@
-# Yet another site on jekyll
-
-Hi, This is Noe Nieto's resume, i.e. me.
+# This is Noe Nieto's Resumé
 
 This site was made with Jekyll using the [modern-resume-theme](https://github.com/sproogen/modern-resume-theme).
 
