@@ -3,11 +3,19 @@ repository: misaelnieto/resume
 favicon: favicon.ico
 baseurl: /resume
 
+# Content configuration version
+version: 2
+
 # Personal info
 name: Noe Nieto
-website: www.noenieto.com
-title: Passionate about software
+title: Senior software developer
 email: nnieto@noenieto.com
+website: www.noenieto.com
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
 twitter_username: misaelnieto_a
 github_username:  misaelnieto
 linkedin_username: noe-nieto-13529524
@@ -17,39 +25,286 @@ additional_links:
   icon: fas fa-briefcase
   url: https://blog.noenieto.com/demos/
 
-# About
-about_profile_image: img/noe.png
-about_content: | # this will include new lines to allow paragraphs
+# About Section
+about_title: Senior software developer
+about_profile_image: img/noe_purism.jpg
+about_content: |
 
-  I like Software! Specially Free/Libre/Open Source Software. That’s why I’d
-  like to define myself as a FLOSS generalist, though I can use proprietary
-  software whenever its the right tool.
-  
-  I’ve played different roles in the past: frontend, backend, sysadmin and DBA.
-  A list with the software and skills I have used in the past is below.
-    - **Programming languages**: Python, PHP, JavaScript, Rust, Java, C#, C, assembler for PIC and AVR microcontrolers.
-    - **Databases**: MySQL, PostgreSQL, SQLServer, SQLite, MongoDB, ZODB.
-    - **OS/Sysadmin/Devops**: Debian, Ubuntu, RHEL, CentOS, Fedora, Windows Server, Docker, Vagrant, Puppet, Apache, Nginx, IIS, Bash, Powershell, Supervisord, Varnish, ZC Buildout, RabbitMQ, Beanstalkd, HAProxy, AWS (EC2, S3, AWS CLI), OpenLDAP, Github Actions, Git, Subversion, Mercurial, BitBucket, Jira, Assembla, Launchpad, Redmine, proftpd, Let’s Encrypt.
-    - **Web**: HTML, CSS, JavaScript, Jekyll, Sphinx, Wordpress, Django, NodeJS, ExpressJS, Bootstrap, Foundation, Bulma, FontAwesome, Yarn, Bower, KnockoutJS, Angular, Plone, Grok, Zope, Rocket, CakePHP, Laravel, CodeIgniter, jQuery, Drupal, ASPNET MVC, Flask, Bottle, Pyramid, XSLT.
-    - **Ecommerce**: Django-Oscar, Django LFS, WooCommerce, Paypal, Compropago, Conekta
-    - **QA**: Selenium, PhantomJS, React, VueJS, Python Unittest.
-    - **Others**: Gtk+, Pygtk, PyGI, Gstreamer, Matlab, Octave, Simulink, Matplotlib, Silvaco TCAD, Devsim TCAD, Eagle, Dewetron, NGSpice, LibreOffice, BigBlueButton
-    - **Data**: SSIS
-    - **Soft skills**: Patient, hard worker, problem solver, teamplayer, proactive, detail oriented, high work ethic.
+  Hi! My name is Noe Nieto, I've doing software development for the last 20
+  years. I work mainly with Free/Libre/OpenSource software, though I use
+  proprietary software whenever its the right tool. I live in the Mexico-US
+  border (sunny &#x2600; Mexicali!) with my wife and 8 beautiful crossbreed dogs &#128021;.
 
-  Finally, I have a B1/B2 visa, so I can travel to any City of the US when needed.
+  I have worked with a range of different languages and frameworks and I am
+  always looking for opportunities to work with something new. The things that
+  I currently have the most experience working with are: <mark>Linux</mark>,
+  <mark>Django</mark>, <mark>Postgresql</mark>, <mark>AWS</mark>,
+  <mark>Woocommerce</mark>, <mark>Jekyll</mark>, <mark>Docker</mark>
 
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+      - title: Kimetrics
+        link: https://www.kimetrics.com/
+        caption: July 2020 - Today
+        sub_title: Backend developer
+        quote: >
+          Kimetrics:BI for Retail and POS
+        description: |
+          This is my current full time job. I'm a backend engineer doing data
+          mining for the retail industry.
 
-# More Section
-more_title: Personal interests #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  I'm a [Holokinetic Psychology
-  Instructor](https://www.percepcionunitaria.org/en/introduction-to-unitary-perception-university-of-guadalajara-jalisco-mexico),
-  I like Dogs and on my spare time I do some Welding.
+          **Technologies used include**: <mark>Linux</mark>,
+          <mark>Python</mark>, <mark>AWS</mark> (<mark>RDS</mark>,
+          <mark>Redshift</mark>, <mark>S3</mark>, <mark>SES</mark>,
+          <mark>ECS</mark>), <mark>Docker</mark>, <mark>Knime</mark> and MS
+          Excel / LO Calc.
 
-# Projects Section
-projects_title: My Freelancing work
+      - title: NNieto Consulting Services
+        link: https://www.noenieto.com
+        caption: Jan 2001 - Today
+        sub_title:
+        quote: >
+          I do some freelance work every now and then.
+        description: |
+          This is where I have had the chance to solve problems with a special
+          focus on using exclusively open source technologies whenever possible. I started
+          this as a side job during the university years but sometimes it has even has
+          evolved to become my main source of income. Projects include websites with PHP,
+          Wordpress, Woocommerce, Drupal, Django, administration of Linux servers, direct
+          customer support and troubleshooting of windows and Linux workstations,
+          installation of Ethernet LANs, analog and IP cameras, and even small electronics
+          hardware.
 
+          **Technologies used include**: <mark>PHP</mark>, <mark>Python</mark>,
+          <mark>JavaScript</mark>, <mark>C</mark>, <mark>Assembler</mark>,
+          <mark>AWS</mark>, <mark>Twitter API</mark>, <mark>Plone</mark>,
+          <mark>Django</mark>, <mark>Beanstalk</mark>, <mark>RabbitMQ</mark>,
+          <mark>Supervisord</mark>, <mark>zc.Buildout</mark>,
+          <mark>Bootstrap</mark>, <mark>Foundation</mark>,
+          <mark>CakePHP</mark>, <mark>jQuery</mark>, <mark>Angular.js
+          (1.x)</mark>, <mark>Drupal</mark>, <mark>Django-LFS</mark>,
+          <mark>WooCommerce</mark>, <mark>KnockoutJS</mark>, <mark>Github
+          Actions</mark>, <mark>Jekyll</mark>, <mark>Restructured Text</mark>,
+          <mark>Gtk+</mark>, <mark>PyGObject</mark>, <mark>Linux</mark>, <mark>Apache</mark> &
+          <mark>Nginx</mark>, <mark>Git</mark>, <mark>Subversion</mark> and a
+          few years ago, the PIC16F85 microcontroller.
+
+      - title: Purism SPC.
+        link: https://puri.sm/
+        caption: November 2018 - March 2020
+        sub_title: <a href="https://librem.one/">Librem One</a> web developer
+        quote: >
+          Purism: A Social Purpose Corporation, dedicated to freedom, privacy, and security.
+        description: |
+          During my time on Purism I worked integrating Wordpress and Woocommerce with our
+          middleware running Django. Other small tasks and technologies included LDAP
+          configuration, static sites with Jekyll and <a href="https://github.com/getzola/zola">Zola</a>,
+          Continuous integration with Gitlab CI, PHPUnit, Python Virtualenv/Pipenv, Bash,
+          Docker and Vagrant.
+
+          **Technologies used include**:: <mark>PHP</mark>,
+          <mark>PHPUnit</mark>, <mark>Wordpress</mark>, <mark>Django</mark>,
+          <mark>Bash</mark>, <mark>Vagrant</mark>.
+
+      - title: Google Summer of Code 2018
+        link: https://summerofcode.withgoogle.com/archive/2018/projects/6310236080046080/
+        quote: I did the Google Summer of Code on 2008
+        caption: May - August, 2018
+        description: |
+          My master's degree thesis was about solar cells so I choosed [DEVSIM](https://devsim.org/).
+          DEVSIM is a TCAD (Technology Computer Aided Design) semiconductor
+          device simulation software. TCAD tools are special simulation
+          software that can simulate the fabrication process of semiconductors
+          as well as their operation. The objective of this work was to add the
+          necessary improvements to DEVSIM so it could simulate solar cells.
+
+          **Technologies used include**: <mark>Python</mark>, the <mark>DEVSIM</mark> TCAD.
+      - title: Social Reality
+        link: https://srax.com/
+        caption: November 2015 - August 2017
+        sub_title: SRAX Web Developer
+        quote: SR Enables public companies to track their investors’ behaviors and trends and use those insights to engage investors across marketing channels.
+        description: |
+          Working on SR was both fun a challenging. When I started, the company’s Ad
+          exchange backend was the typical LAMP stack with a lot of legacy code on
+          stored procedures and PHP/CodeIgniter code. Deployment process was
+          completely manual and error prone.
+
+          My first assignment was to streamline their somehow complex onboarding
+          process, I wrote the backend using stored procedures and tested them using
+          PHPUnit and a MySQL server running on a ramdisk.
+
+          Their Real Time Bidding system relied on a proprietary algorithm written in
+          C++. The developer had never worked on Linux before, so I helped him by
+          configuring a proper sandbox server and wrote a tool that would pull the
+          latest changes from SVN/Git, compile the code and restart the web server
+          with a webhook or with the click of a button.
+
+          At the end of my time on SR/SRAX the new onboarding process was finished, we
+          had already integrated several ad exchanges into our backend (a huge
+          milestone), the team migrated from SVN to Git, we started to write tests
+          with PHPUnit and Selenium and the developer’s development enviroment was now
+          semi automated using a customized version of Puphpet, (code named Arale) and
+          the whole team was already using Agile methodologies. Besides the developer
+          role, I also enjoyed administering some of Linux servers with Puppet and
+          staring to New Relics graphs.
+
+          **Technologies used include**:
+
+          <mark>PHP</mark>/<mark>CodeIgniter</mark>, the <mark>LAMP</mark>
+          stack, <mark>C++</mark>, <mark>Jira</mark>, NewRelic.
+
+      - title: Valutech Outsourcing S.A. de C.V. (now Clover Wireless)
+        caption: October 2013 - November 2015
+        sub_title: Developer/Sysadmin
+        quote: >
+          Valutech/Clover: Cellphone repair & refurbishing
+        description: |
+          This was mi first time working on a data center of a company. My main
+          responsibilities included administration, maintenance, backup and
+          optimization and emergency response for SQL Server databases, IIS, and Linux
+          hosts for ftp/sftp, web and backup systems, all integrated into the
+          company’s Active Directory server. I was in charge of monitoring all the
+          changes pushed by the developers; Our Database load had high concurrency and
+          I had to look for naive queries that otherwise would trash the DB server.
+          Also since database sizes typically exceeded Terabytes, we had to be a bit
+          extra careful for backups. Some of the SQL Servers had HA configurations
+          like replicas and Always On. Also, I had the chance to work on internal
+          tools using ASP .NET MVC., AWS S3, VMWare, Python and RabbitMQ.
+
+          **Technologies used**: <mark>SQL Server</mark>, <mark>IIS</mark>, <mark>Linux</mark>, <mark>Active Directory</mark>,
+          <mark>Apache</mark>, <mark>MS Access</mark>, <mark>SSIS</mark>, Red Gate’s <mark>SQL Compare</mark>, <mark>SQL Backup</mark> and <mark>SQL Monitor</mark>,
+          <mark>Redmine</mark>, <mark>DB Comparer</mark>.
+      - title: HomeViva (Now defunct)
+        caption: August 2011 - March 2014
+        sub_title: Full stack developer
+        quote: >
+          South american startup for the home construction industry
+        description: |
+          At the beginning our stack was Linux (on AWS), Nginx, HTML, CSS and vanilla
+          JavaScript with some jQuery on the frontend, Python and Grok on the backend
+          (using ZODB, a NoSQL) until the JS code became difficult to maintain; to
+          escape our doom we migrated to another stack: Python, Pyramid and SQL
+          Alchemy with a good JSON API on the backend, and Angular.js 1.x on the
+          frontend. Additionally, I managed the Linux servers on AWS.
+
+          **Technologies used**: <mark>JavaScript</mark>, <mark>HTML</mark>,
+          <mark>CSS</mark>, <mark>Python</mark>, <mark>Pyramid</mark>,
+          <mark>Linux</mark>, <mark>Angular.js</mark>, <mark>Git</mark>,
+          <mark>subversion</mark>.
+      - title: iServices de México (Now defunct)
+        caption: January 2009 - April 2011
+        sub_title: Web/Python Dev and Linux Sysadmin
+        quote: >
+          Small company specialized on elearning infrastructure
+        description: |
+          I was in charge of integration/development and maintenance of their in-house
+          LCMS systems. My activities involved system administration of the Linux
+          servers (including scaling up for concurrency), project management
+          development maintenance with the Plone CMS and emergency assistance in case
+          of software failure. Key technologies included: Python,
+          Plone/ZODB/RelStorage/PostgreSQL, HTML, CSS, JavaScript and Django.
+
+          **Technologies used include**: <mark>HTML</mark>, <mark>CSS</mark>,
+          <mark>JavaScript</mark>, <mark>Django</mark>. <mark>Python</mark>,
+          <mark>Plone</mark>/<mark>ZODB</mark>/<mark>RelStorage</mark>/<mark>PostgreSQL</mark>.
+      - title: Honeywell Aerospace de Mexico / Honeywell MRTC
+        caption: May 2006 - December 2008
+        sub_title: Data acquisition engineer.
+        quote: >
+          A center for Research and Technology for aviation, located on Mexicali.
+        description: |
+          As a Data Acquisition Engineer I was in charge of the commissioning and
+          operation of DA hardware and software. I became the in-house specialist for
+          pressure, temperature, voltage, current and vibration measurements as well
+          as video over IP and networking. I was also in charge of assuring that} our
+          instruments were always calibrated with traceability to the NIST and always
+          ready for use that included dealing with purchasing and supply chain
+          departments. I successfully concluded my Six Sigma Green Belt course.
+          Software tools included: Windows, Linux/Apache/MySQL/PHP, Python, GStreamer.
+          DA equipment included brands like Scanivalve, Dewetron and Genesys (LDS Test
+          and Measurement).
+
+          **Technologies used include**: <mark>PHP</mark>, <mark>Linux</mark>,
+          <mark>Apache</mark>, <mark>MySQL</mark>, <mark>Python</mark>.
+      - title: Gameloft (Mexicali)
+        caption: February ~ March 2016
+        sub_title: Multiplayer programmer
+        quote: >
+          French video game publisher with a special focus on the mobile games market.
+        description: |
+          I implemented tested and deployed modifications of the multiplayer server
+          and multiplayer API used in networked games for mobile phones. I also worked
+          on adding support for specific models of cellphones by the different game
+          titles published by Gameloft.
+
+          **Technologies used include**: <mark>C++</mark>, <mark>Apache</mark>, <mark>Linux</mark>, <mark>Android</mark>.
+      - title: Centro de ingenieria – INAOE
+        caption: October 2013 - November 2015
+        sub_title: Internship - Embedded systems laboratory assistant
+        quote: >
+          Internship @ Instituto Nacional de Astrofísica Óptica y Electrónica
+        description: |
+          Kalman filter (a corrective/predictive filter) simulator as internship
+          project using a dll compiled from Matlab. Other tools were C and Assembler
+          for the Atmel microcontrollers. I also played a lot with Simulink.
+
+          **Technologies used include**: <mark>C</mark>, <mark>Assembler</mark>, <mark>Matlab</mark>, <mark>Simulink</mark>.
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+      - title: M.Eng. UABC, Instituo de Ingeniería
+        caption: 2016-2018
+        description: |
+          Thesis title: _ESTUDIO POR SIMULACIÓN DE LOS EFECTOS DE DISEÑO EN CELDAS
+          SOLARES SEMICONDUCTORAS_. I used Silvaco's TCAD software simulate the
+          fabrication solar cells using Crystaline Silicon as substrate with Boron and
+          Phosphorus as dopants using diffusion or ion implantation. Besides earning
+          my degree, I used this knowledge to work on 2018 edition of Google's Summer
+          of Code with the project "[Enable DEVSIM to simulate solar
+          cells](https://summerofcode.withgoogle.com/archive/2018/projects/6310236080046080/)"
+      - title: International SCRUM Institute (May 2015).
+        caption: May 2015
+        description: |
+          Three day intensive course for the role of SCRUM Master. After training I
+          passed the accreditation exam on May 29. My Authorized Certification ID is
+          `79778815187513`. The Certificate validity period is lifetime. You can use
+          the [ISI's website to verify the
+          certificate](https://www.scrum-institute.org/International_Scrum_Institute_Certificate_Validation_Tool.php).
+      - title: Instituto Tecnológico de Puebla
+        caption: 2000 - 2005
+        description: |
+          My Thesis *"Sistema de Vigilancia con video sobre TCP/IP"* demostrates the
+          possibility of building surveillance systems by using only Free/Libre/Open
+          Source Software (i.e Linux, Python, Supervisord and Gstreamer). I also
+          installed a 8-node cluster in the parallel computing research laboratory of
+          the Instituto Tecnologico de Puebla as social service using Linux, and the
+          MPI/BLAS/Lapack stack.
+      - title: Universidad Popular Autónoma del Estado de Puebla
+        caption: 1997 - 2000
+        description: |
+          This is when I learn the basics of algorithms, C, Basic and Pascal to
+          finally earn a Computer Programmer Technician diploma.
+  - title: Beyond the scope of work
+    layout: text
+    content: |
+      Altough I like computers, I do other stuff too.
+      * I like welding metallic stuff on my free time.
+      * I'm a [Holokinetic Psychology](https://www.holokineticpsychology.org/) instructor.
+      * Portfolio for NNieto Consulting Services
+      * My (possibly outdated) [blog](https://www.noenieto.com/).
+      * [Demos, tools and toys](https://blog.noenieto.com/demos/).
+      * The names of my dogs are based on a candy theme: Bombon(f),
+      Chocorol(m), Candy(f), Wini(f), Bubulubu(f), Tutsi (f), Cremino(m) &
+      Cuquis(f).
+
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Build settings
 # remote-theme: modern-resume-theme

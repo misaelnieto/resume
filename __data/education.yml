@@ -1,7 +1,7 @@
-- company: Google Summer of Code
+- title: Google Summer of Code 2018
   link: https://summerofcode.withgoogle.com/archive/2018/projects/6310236080046080/
-  dates: May - August, 2018
-  job_title: Enable DEVSIM to simulate solar cells
+  quote: Student
+  caption: May - August, 2018
   description: |
     DEVSIM is a TCAD (Technology Computer Aided Design) semiconductor device
     simulation software. TCAD tools are special simulation software that can
@@ -9,8 +9,8 @@
     operation. The objective of this work was to add the necessary improvements
     to DEVSIM so it can simulate solar cells.
 
-- name: M.Eng. UABC, Instituo de Ingeniería
-  dates: 2016-2018
+- title: M.Eng. UABC, Instituo de Ingeniería
+  caption: 2016-2018
   description: |
     Thesis title: _ESTUDIO POR SIMULACIÓN DE LOS EFECTOS DE DISEÑO EN CELDAS
     SOLARES SEMICONDUCTORAS_. I used Silvaco's TCAD software simulate the
@@ -20,8 +20,8 @@
     of Code with the project "[Enable DEVSIM to simulate solar
     cells](https://summerofcode.withgoogle.com/archive/2018/projects/6310236080046080/)"
 
-- name: International SCRUM Institute (May 2015).
-  dates: May 2015
+- title: International SCRUM Institute (May 2015).
+  caption: May 2015
   description: |
     Three day intensive course for the role of SCRUM Master. After training I
     passed the accreditation exam on May 29. My Authorized Certification ID is
@@ -29,8 +29,8 @@
     the [ISI's website to verify the
     certificate](https://www.scrum-institute.org/International_Scrum_Institute_Certificate_Validation_Tool.php).
 
-- name: Instituto Tecnológico de Puebla
-  dates: 2000 - 2005
+- title: Instituto Tecnológico de Puebla
+  caption: 2000 - 2005
   description: |
     My Thesis *"Sistema de Vigilancia con video sobre TCP/IP"* demostrates the
     possibility of building surveillance systems by using only Free/Libre/Open
@@ -39,8 +39,8 @@
     the Instituto Tecnologico de Puebla as social service using Linux, and the
     MPI/BLAS/Lapack stack.
 
-- name: Universidad Popular Autónoma del Estado de Puebl
-  dates: 1997 - 2000
+- title: Universidad Popular Autónoma del Estado de Puebla
+  caption: 1997 - 2000
   description: |
     This is when I learn the basics of algorithms, C, Basic and Pascal to
     finally earn a Computer Programmer Technician diploma.

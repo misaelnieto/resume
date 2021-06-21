@@ -1,0 +1,32 @@
+#!/bin/bash
+function print_help () {
+cat << EOL
+NAME:
+    dev: A tool to work with your resume
+
+USAGE
+    $0 <command>
+
+COMMANDS:
+    help            Prints this text.
+    watch           Runs the jekyll watch command
+    build           Runs the jekyll build
+    deploy          Commit, push and build with Gihub Actions 
+EOL
+}
+
+if [[ "$#" -lt 1 || $1 == "help" ]]; then
+    print_help
+    exit 0
+elif [[ $1 == "watch" ]]; then
+    bundle exec jekyll serve --watch
+elif [[ $1 == "build" ]]; then
+    bundle exec jekyll build
+elif [[ $1 == "deploy" ]]; then
+    git fetch
+    git pull origin master
+    git push origin master
+else
+    echo "Invalid command"
+    print_help
+fi

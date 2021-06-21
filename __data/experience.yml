@@ -1,7 +1,9 @@
-- company: NNieto Consulting Services
+- title: NNieto Consulting Services
   link: https://www.noenieto.com
-  dates: Jan 2001 - Today
-  job_title:
+  caption: Jan 2001 - Today
+  sub_title:
+  quote: >
+    Short description of the company (optional)
   description: |
     This is where I have had the chance to solve my clients’ needs with a special
     focus on using exclusively open source technologies whenever possible. I started
@@ -19,10 +21,12 @@
     Restructured Text, Gtk, PyGObject, Linux, Apache & Nginx, Git, Subversion and
     the PIC16F85 microcontroller.
 
-- company: Purism SPC.
+- title: Purism SPC.
   link: https://puri.sm/
-  dates: November 2018 - March 2020
-  job_title: <a href="https://librem.one/">Librem One</a> web developer
+  caption: November 2018 - March 2020
+  sub_title: <a href="https://librem.one/">Librem One</a> web developer
+  quote: >
+    Short description of the company (optional)
   description: |
     During my time on Purism I worked integrating Wordpress and Woocommerce with our
     middleware running Django. Other small tasks and technologies included LDAP
@@ -32,10 +36,12 @@
 
     **Technologies used**: PHPUnit, Wordpress, Django, Bash, Docker
 
-- company: Social Reality
+- title: Social Reality
   link: https://srax.com/
-  dates: November 2015 - August 2017
-  job_title: SRAX Web Developer
+  caption: November 2015 - August 2017
+  sub_title: SRAX Web Developer
+  quote: >
+    Short description of the company (optional)
   description: |
     Working on SR was both fun a challenging. When I started, the company’s Ad
     exchange backend was the typical LAMP stack with a lot of legacy code on
@@ -63,9 +69,11 @@
 
     **Technologies used:** PHP/CodeIgniter, LAMP, Linux, C++, Jira, NewRelic
 
-- company: Valutech Outsourcing S.A. de C.V. (now Clover Wireless)
-  dates: October 2013 - November 2015
-  job_title: Developer/Sysadmin
+- title: Valutech Outsourcing S.A. de C.V. (now Clover Wireless)
+  caption: October 2013 - November 2015
+  sub_title: Developer/Sysadmin
+  quote: >
+    Short description of the company (optional)
   description: |
     This was mi first time working on a data center of a company. My main
     responsibilities included administration, maintenance, backup and
@@ -83,9 +91,11 @@
     Apache, MS Access, SSIS, Red Gate’s SQL Compare, SQL Backup and SQL Monitor,
     Redmine, DB Comparer, Heidi SQL.
 
-- company: HomeViva
-  dates: August 2011 - March 2014
-  job_title: Full stack developer
+- title: HomeViva
+  caption: August 2011 - March 2014
+  sub_title: Full stack developer
+  quote: >
+    Short description of the company (optional)
   description: |
     At the beginning our stack was Linux (on AWS), Nginx, HTML, CSS and vanilla
     JavaScript with some jQuery on the frontend, Python and Grok on the backend
@@ -97,9 +107,11 @@
     **Technologies used**: JavaScript, HTML, CSS, Python, Pyramid, Linux,
     Angular.js, Git, subversion.
 
-- company: iServices de México (Now defunct)
-  dates: January 2009 - April 2011
-  job_title: Web/Python Dev and Linux Sysadmin
+- title: iServices de México (Now defunct)
+  caption: January 2009 - April 2011
+  sub_title: Web/Python Dev and Linux Sysadmin
+  quote: >
+    Short description of the company (optional)
   description: |
     I was in charge of integration/development and maintenance of their in-house
     LCMS systems. My activities involved system administration of the Linux
@@ -111,9 +123,11 @@
     **Technologies used**: HTML, CSS, JavaScript, Django. Python,
     Plone/ZODB/RelStorage/PostgreSQL
 
-- company: Honeywell Aerospace de Mexico / Honeywell MRTC
-  dates: May 2006 - December 2008
-  job_title: Data acquisition engineer.
+- title: Honeywell Aerospace de Mexico / Honeywell MRTC
+  caption: May 2006 - December 2008
+  sub_title: Data acquisition engineer.
+  quote: >
+    Short description of the company (optional)
   description: |
     As a Data Acquisition Engineer I was in charge of the commissioning and
     operation of DA hardware and software. I became the in-house specialist for
@@ -128,9 +142,11 @@
 
     **Technologies used**: PHP, Linux, Apache, MySQL, Python
 
-- company: Gameloft (Mexicali)
-  dates: February ~ March 2016
-  job_title: Multiplayer programmer
+- title: Gameloft (Mexicali)
+  caption: February ~ March 2016
+  sub_title: Multiplayer programmer
+  quote: >
+    Short description of the company (optional)
   description: |
     I implemented tested and deployed modifications of the multiplayer server
     and multiplayer API used in networked games for mobile phones. I also worked
@@ -139,9 +155,11 @@
 
     Technologies used: C++, Apache, Linux, Android
 
-- company: Centro de ingenieria – Instituto Nacional de Astrofísica Óptica y Electrónica
-  dates: October 2013 - November 2015
-  job_title: Internship - Embedded systems laboratory assistant
+- title: Centro de ingenieria – Instituto Nacional de Astrofísica Óptica y Electrónica
+  caption: October 2013 - November 2015
+sub_title: Internship - Embedded systems laboratory assistant
+  quote: >
+    Short description of the company (optional)
   description: |
     Kalman filter (a corrective/predictive filter) simulator as internship
     project using a dll compiled from Matlab. Other tools were C and Assembler
