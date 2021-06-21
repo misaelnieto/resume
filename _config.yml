@@ -292,15 +292,15 @@ content:
   - title: Beyond the scope of work
     layout: text
     content: |
-      Altough I like computers, I do other stuff too.
+
+      Altough I like computers, I do other things too.
       * I like welding metallic stuff on my free time.
       * I'm a [Holokinetic Psychology](https://www.holokineticpsychology.org/) instructor.
-      * Portfolio for NNieto Consulting Services
-      * My (possibly outdated) [blog](https://www.noenieto.com/).
-      * [Demos, tools and toys](https://blog.noenieto.com/demos/).
-      * The names of my dogs are based on a candy theme: Bombon(f),
-      Chocorol(m), Candy(f), Wini(f), Bubulubu(f), Tutsi (f), Cremino(m) &
-      Cuquis(f).
+      * I write stuff on my (possibly outdated)
+        [blog](https://www.noenieto.com/) and sometimes upload [Demos, tools and
+        toys](https://blog.noenieto.com/demos/) to my site.
+      * The names of my dogs are based on a candy theme: Bombon, Chocorol,
+        Candy, Wini, Bubulubu, Tutsi , Cremino & Cuquis.
 
 sass:
   sass_dir: _sass
