@@ -23,19 +23,19 @@ jobs:
           src: ./_site/
           # Remote server and path. i.e user@server.com:/var/www/server.com/
           dest: ${{secrets.RSYNC_DEST}}
-  convert_pdf_2_html:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Render my CV to PDF
-        uses: misaelnieto/web_to_pdf_action@master
-        with:
-          webPageURL: https://www.noenieto.com/resume/
-          outputFile: ~/Noe_Nieto_Resume.pdf
-          usePuppeteer: true
-          useScreen: true
-          pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-      - name: 'Upload PDF as artifact'
-        uses: actions/upload-artifact@v2
-        with:
-          name: Generated_CV
-          path: ~/Noe_Nieto_Resume.pdf
+  # convert_pdf_2_html:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Render my CV to PDF
+  #       uses: misaelnieto/web_to_pdf_action@master
+  #       with:
+  #         webPageURL: https://www.noenieto.com/resume/
+  #         outputFile: ~/Noe_Nieto_Resume.pdf
+  #         usePuppeteer: true
+  #         useScreen: true
+  #         pdfOptions: '{"format": "Letter", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+  #     - name: 'Upload PDF as artifact'
+  #       uses: actions/upload-artifact@v2
+  #       with:
+  #         name: Generated_CV
+  #         path: ~/Noe_Nieto_Resume.pdf
