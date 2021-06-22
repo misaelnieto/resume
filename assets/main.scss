@@ -1,0 +1,35 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import 'modern-resume-theme';
+
+@media print {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2.0rem;
+    }
+    h3, h4, h5, h6 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    ul {
+        font-size: 1.2rem;
+    }
+    .intro-container {
+        h3 {
+            display: none;
+        }
+    }
+    .list-container {
+        .row {
+            margin-top: 1.5rem;
+            border-top: 1px dashed lightgray;
+            padding-top: 0.8rem;
+        }
+    }
+}

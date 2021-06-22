@@ -110,7 +110,7 @@ content:
           <mark>Bash</mark>, <mark>Vagrant</mark>.
 
       - title: Google Summer of Code 2018
-        link: https://summerofcode.withgoogle.com/archive/2018/projects/6310236080046080/
+        link: https://bit.ly/3zIOv69
         quote: I did the Google Summer of Code on 2008
         caption: May - August, 2018
         description: |
@@ -302,9 +302,9 @@ content:
       * The names of my dogs are based on a candy theme: Bombon, Chocorol,
         Candy, Wini, Bubulubu, Tutsi , Cremino & Cuquis.
 
-sass:
-  sass_dir: _sass
-  style: compressed
+# sass:
+#   sass_dir: _sass
+#   style: compressed
 
 # Build settings
 # remote-theme: modern-resume-theme

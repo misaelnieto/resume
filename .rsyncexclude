@@ -1,4 +1,5 @@
 watch.sh
+resume
 .rsyncexclude
 .hgignore
 .gitignore
